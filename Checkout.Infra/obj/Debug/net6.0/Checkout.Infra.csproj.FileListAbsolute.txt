@@ -1,0 +1,17 @@
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Infra.deps.json
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Infra.runtimeconfig.json
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Infra.dll
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Infra.pdb
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Domain.dll
+C:\dev\project\checkout2\Checkout\Checkout.Infra\bin\Debug\net6.0\Checkout.Domain.pdb
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.csproj.AssemblyReference.cache
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.AssemblyInfoInputs.cache
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.AssemblyInfo.cs
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.csproj.CoreCompileInputs.cache
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.csproj.CopyComplete
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.dll
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\refint\Checkout.Infra.dll
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.pdb
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\Checkout.Infra.genruntimeconfig.cache
+C:\dev\project\checkout2\Checkout\Checkout.Infra\obj\Debug\net6.0\ref\Checkout.Infra.dll

@@ -1,0 +1,17 @@
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\EndToEndTestHelpers.ServiceClients.exe
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\EndToEndTestHelpers.ServiceClients.deps.json
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\EndToEndTestHelpers.ServiceClients.runtimeconfig.json
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\EndToEndTestHelpers.ServiceClients.dll
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\EndToEndTestHelpers.ServiceClients.pdb
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.csproj.AssemblyReference.cache
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.AssemblyInfoInputs.cache
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.AssemblyInfo.cs
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.csproj.CoreCompileInputs.cache
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.csproj.CopyComplete
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.dll
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\refint\EndToEndTestHelpers.ServiceClients.dll
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.pdb
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\EndToEndTestHelpers.ServiceClients.genruntimeconfig.cache
+C:\dev\project\checkout2\Checkout\EndToEndTestHelpers.ServiceClients\obj\Debug\net6.0\ref\EndToEndTestHelpers.ServiceClients.dll
