@@ -1,6 +1,6 @@
 # Checkout
 
-##How to run 
+## How to run 
 
 The application requires a database to store payment requests
 - Setup database with docker-compose.yml 
