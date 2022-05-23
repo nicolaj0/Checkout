@@ -12,6 +12,8 @@ dotnet build
 dotnet ef database update
 ```
 
+Using Jetbrains rider, launch the coumpound "Checkout", whi starts the API and the Bank Simulator
+
 - run the tests
   - unit tests
   - E2E tests 
