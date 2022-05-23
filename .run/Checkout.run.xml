@@ -1,7 +1,0 @@
-﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Checkout" type="CompoundRunConfigurationType">
-    <toRun name="Checkout" type="LaunchSettings" />
-    <toRun name="Checkout.Bank" type="LaunchSettings" />
-    <method v="2" />
-  </configuration>
-</component>
