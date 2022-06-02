@@ -53,7 +53,7 @@ namespace Checkout
                 .AddSwaggerGenNewtonsoftSupport();
         }
 
-        public static IApplicationBuilder UseSwaggerEndpointAndWebUI(this IApplicationBuilder app, string routePrefix, string swaggerDocName, string swaggerDocVersion)
+        public static IApplicationBuilder UseSwaggerEndpointAndWebUI(this IApplicationBuilder app, string routePrefix, string swaggerDocName)
         {
             // routePrefix expected format is 'api/workspace'
             // no check on slashes for now
@@ -61,14 +61,13 @@ namespace Checkout
             // Enable middleware to serve generated Swagger as a JSON endpoint
             app.UseSwagger(c =>
             {
-                c.RouteTemplate = routePrefix + "/swagger/{documentName}/swagger.json";
+                c.RouteTemplate =  "/swagger/{documentName}/swagger.json";
             });
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.) specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint($"/{routePrefix}/swagger/{swaggerDocVersion}/swagger.json", swaggerDocName);
-                c.RoutePrefix = $"{routePrefix}/swagger";
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Checkout");
             });
 
             return app;

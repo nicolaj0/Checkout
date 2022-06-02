@@ -7,7 +7,6 @@
         <UserSecretsId>aspnet-Checkout-AEE072C4-0A9B-4A4F-BE6F-18746CAB5EB9</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <TargetsTriggeredByCompilation>FlagBuilt</TargetsTriggeredByCompilation>
-        <RootNamespace>Checkout</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -55,9 +54,5 @@
         </PropertyGroup>
     </Target>
 
-    <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="$(GenerateSwaggerFile) == True">
-        <Exec Command="dotnet tool restore" YieldDuringToolExecution="true" />
-        <!-- dotnet swagger tofile [options] [startupassembly] [swaggerdoc] -->
-        <Exec Command="swagger tofile --output $(ProjectDir)\api.swagger.json $(OutputPath)\$(AssemblyName).dll v1" />
-    </Target>
+   
 </Project>

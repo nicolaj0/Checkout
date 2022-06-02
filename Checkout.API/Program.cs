@@ -44,10 +44,10 @@ builder.Services.AddControllers(options =>
     options.Filters.Add(typeof(HttpGlobalExceptionFilter));
 
 });
-
+// config.GetValue<string>("CarvedRockApiUrl")
 builder.Services
     .AddRefitClient<IBankSimulatorClient>()
-    .ConfigureHttpClient(c => c.BaseAddress = new Uri(Environment.GetEnvironmentVariable("BANK_SIMULATOR_URI")));
+    .ConfigureHttpClient(c => c.BaseAddress = new Uri(builder.Configuration.GetValue<string>("BankSimulatorApiUrl")));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwagger("Checkout.API", "v1");
@@ -56,7 +56,7 @@ builder.Host.UseSerilog((ctx, lc) => lc
     .WriteTo.Seq("http://localhost:5341"));
 
 var app = builder.Build();
-app.UseSwaggerEndpointAndWebUI("api/workspace", "Checkout.API", "v1");
+app.UseSwaggerEndpointAndWebUI("api", "Checkout.API");
 
 app.UseHttpsRedirection();
 
@@ -65,5 +65,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<CheckoutContext>();
+    db.Database.Migrate();
+}
 app.Run();
