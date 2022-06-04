@@ -10,6 +10,9 @@ services:
       dockerfile: Checkout.API/Dockerfile
     ports:
       - 5088:5088
+    depends_on:
+      - seq
+      - mysql
   checkoutbank:
     image: checkoutbank
     build:
@@ -30,5 +33,12 @@ services:
       MYSQL_PASS: 'pass'
     volumes:
       - checkout-datavolume:/var/lib/mysql
+  seq:
+    image: datalust/seq
+    ports:
+      - '8005:80'
+    environment:
+      - ACCEPT_EULA=Y
+
 volumes:
   checkout-datavolume:

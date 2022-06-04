@@ -53,7 +53,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwagger("Checkout.API", "v1");
 builder.Host.UseSerilog((ctx, lc) => lc
     .WriteTo.Console()
-    .WriteTo.Seq("http://localhost:5341"));
+    .WriteTo.Seq("http://seq:5341"));
 
 var app = builder.Build();
 app.UseSwaggerEndpointAndWebUI("api", "Checkout.API");

@@ -5,20 +5,16 @@
 The application requires a database to store payment requests
 - Setup database with docker-compose.yml 
 
-- build the solution and create the dabaase
+- lanche and run the stack
 ```shell
-dotnet restore 
-dotnet build
-dotnet ef database update
+ docker-compose up
 ```
-
-Using Jetbrains rider, launch the coumpound "Checkout", whi starts the API and the Bank Simulator
 
 - run the tests
   - unit tests
   - E2E tests 
 
-##Assumptions
+## Assumptions
 
 - for simplicity , there is no authentication/authorization in place. For a real world scenario, a JWT based solution is required to process all payment requests
 
